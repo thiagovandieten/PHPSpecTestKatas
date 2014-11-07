@@ -1,0 +1,19 @@
+{
+    "name": "nktakumi/kata",
+    "description": "description_text",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "author's name",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "phpspec/phpspec": "2.1.x-dev",
+        "behat/behat": "3.0.x-dev"
+    },
+    "autoload": {
+        "psr-0" : { "": "src/" }
+    }
+}
